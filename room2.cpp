@@ -41,7 +41,7 @@ int main()
     }
 
      file.close();
-    cout << "\nRooms data successfully saved in file!\n" << endl;
+    cout << "\n All Rooms record saved to rooms.txt file succesfully!\n" << endl;
 
     ifstream readfile("rooms.txt");
 
