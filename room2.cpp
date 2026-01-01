@@ -6,14 +6,14 @@ int main()
 {
     ofstream file("rooms.txt", ios::app);
     int i=0;
-    int roomnum[20];
+    int roomnum[21];
     string roomtype , occupancystatus;
     int roomprice ;
 
     cout<<"Enter rooms detail:" << endl;
     
     // Room number
-    for(i=1; i<=20;  i++)
+    for(i=1; i<=21;  i++)
     {
       cout<<" Enter Room Number: "  <<endl;
       cin>> roomnum[i];
