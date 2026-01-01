@@ -5,6 +5,12 @@ using namespace std;
 int main()
 {
     ofstream file("rooms.txt", ios::app);
+    if(!file)
+    {
+      cout<<"Error : rooms.txt could not open!" << endl;
+      return 1;
+    }
+
     int i=0;
     int roomnum[21];
     string roomtype , occupancystatus;
@@ -15,8 +21,10 @@ int main()
     cout<<"********************"<< endl;
     
     // Room number
+    
     for(i=1; i<=21;  i++)
-    {
+   {
+      
       cout<<" Enter Room Number: "  <<endl;
       cin>> roomnum[i];
       
