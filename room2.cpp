@@ -10,7 +10,9 @@ int main()
     string roomtype , occupancystatus;
     int roomprice ;
 
+    cout<<"********************"<< endl;
     cout<<"Enter rooms detail:" << endl;
+    cout<<"********************"<< endl;
     
     // Room number
     for(i=1; i<=21;  i++)
