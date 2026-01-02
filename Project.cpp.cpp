@@ -8,14 +8,15 @@ using namespace std;
 
 struct Student     
 {
+    int id,phone number;
     int id,phonenumber;
     string name,fathername,address;
 };
 
 int main()
 {
-
-    int i=20; //number of students
+    int i=20; //no. of students
+     
     
     //here we use array for details of all students
     
@@ -79,6 +80,7 @@ int main()
 }
      
     
+
 
 
 
