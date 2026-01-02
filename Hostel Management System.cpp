@@ -1,5 +1,5 @@
 #include<iostream>
-#include<fstream>
+#include<fstream> // without fstream file handling, we can't read any file
 #include<string>
 
 
@@ -73,5 +73,6 @@ int main(){
   readfile.close ();
     return 0;
 }
+
 
 
