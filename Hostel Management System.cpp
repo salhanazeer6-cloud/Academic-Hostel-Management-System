@@ -60,7 +60,7 @@ int main(){
         cout << "Room is already full!" << endl;
     }
 
-    file.close();
+    file.close(); // its compulory to close file after creating and reading 
     ifstream readfile (" allotment.txt ") ;
      
     cout << " ...Alloted Students Detail ..." ; 
@@ -73,6 +73,7 @@ int main(){
   readfile.close ();
     return 0;
 }
+
 
 
 
