@@ -4,6 +4,13 @@
 
 
 using namespace std;
+struct studentData {
+int ID;
+string name ;
+string address;
+string fatherName;
+int phoneNumber;
+} // their should be a terminator after the braces of the struct without a terminator, it will cause an error
 
 struct studentData {
     int ID;
@@ -16,7 +23,7 @@ struct studentData {
 struct RoomData {
     int roomNum ;
     int roomtype ;
-    int Occupencystatus ;
+    int OccupencyStatus ;
      
 
 };
@@ -33,16 +40,16 @@ int main(){
 
     ofstream file ("allotment.txt",ios::app);
     if(!file)
-    cout << "  Error : NO SUCH FILE FOUND " << endl ;
+    cout << "  Error: NO SUCH FILE FOUND " << endl ;
 
 
 
-    // Here student will  their enter id 
+    // Here, the student will  enter their ID 
   cout << " Enter Student ID = " ;
   cin >> ID ;
 
-  if ( r.Occupencystatus < r.roomtype ){
-  r.Occupencystatus ++ ;
+  if ( r. OccupancyStatus < r.roomtype ){
+  r.OccupencyStatus ++ ;
   a.studentID = s.ID ;
   a.roomNo = r.roomNum ;
  file << a.studentID << " " << a.roomNo << endl;
@@ -66,4 +73,5 @@ int main(){
   readfile.close ();
     return 0;
 }
+
 
