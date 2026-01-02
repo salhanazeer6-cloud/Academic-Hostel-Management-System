@@ -45,7 +45,7 @@ int main(){
 
 
     // Here, the student will  enter their ID 
-  cout << " Enter Student ID = " ;
+  cout << " Enter Student ID = " ; 
   cin >> ID ;
 
   if ( r. OccupancyStatus < r.roomtype ){
@@ -60,11 +60,12 @@ int main(){
         cout << "Room is already full!" << endl;
     }
 
-    file.close(); // its compulory to close file after creating and reading 
+    file.close(); // its compulory to close the file after creating and reading 
     ifstream readfile (" allotment.txt ") ;
      
     cout << " ...Alloted Students Detail ..." ; 
  {
+     while ( readfile << id << roomno ) // it will cause errors in program
     while ( readfile >> ID >> roomNo )
      
     cout << " Studnent ID" << ID << endl ;
@@ -73,6 +74,7 @@ int main(){
   readfile.close ();
     return 0;
 }
+
 
 
 
