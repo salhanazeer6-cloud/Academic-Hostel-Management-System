@@ -21,6 +21,10 @@ Name: Urooj Fatima
 Roll no.: 25021519-152
    ## MY PROJECT PART OVERVIEW:
    My project part is about the data entering of students of hostels by using C++ and file handling.
+   ## How My Project Works:
+1. First of all, User will enter the data of students "DATA" including(ID.Name,Father's name,Address,Phone no.)
+2. Data will automatically saved in file(students.txt)
+3. At the end, Data will successfuly saved in the file with commit chamges.
   
    
 
