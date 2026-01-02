@@ -50,8 +50,8 @@ int main(){
   cin >> ID ;
 
   if ( r. OccupancyStatus < r.roomtype ){
-  r.OccupencyStatus ++ ;
-  a.studentID = s.ID ;
+  r.OccupencyStatus ++ ; 
+  a.studentID = s.ID; // in alloted student ID, student id will be displayed 
   a.roomNo = r.roomNum ;
  file << a.studentID << " " << a.roomNo << endl;
 
@@ -61,7 +61,7 @@ int main(){
         cout << "Room is already full!" << endl;
     }
 
-    file.close(); // its compulory to close the file after creating and reading 
+    file.close(); // it's compulory to close the file after creating and reading 
     ifstream readfile (" allotment.txt ") ;
      
     cout << " ...Alloted Students Detail ..." ; 
@@ -75,6 +75,7 @@ int main(){
   readfile.close ();
     return 0;
 }
+
 
 
 
