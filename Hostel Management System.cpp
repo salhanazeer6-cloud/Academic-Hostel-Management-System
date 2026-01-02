@@ -22,9 +22,10 @@ struct studentData {
 };
 struct RoomData {
     int roomNum ;
-    int roomtype ;
+    int roomtype ; // roomtype and occupency status must be in string data type
     int OccupencyStatus ;
-     
+    tring roomtype ; 
+    string OccupencyStatus ; 
 
 };
 struct AllotmentFile {
@@ -74,6 +75,7 @@ int main(){
   readfile.close ();
     return 0;
 }
+
 
 
 
