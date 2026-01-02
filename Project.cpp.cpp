@@ -6,7 +6,7 @@ using namespace std;
 
 //we use structure because we have different types of variable
 
-struct Student     //here i use structure because i have different types of data types and to store differenet variables in one variable
+struct Student     
 {
     int id,phonenumber;
     string name,fathername,address;
@@ -18,8 +18,9 @@ int main()
     int i=20; //number of students
     
     //here we use array for details of all students
-
+    
     Student arr[i];
+    //We use here Student which is user defined data type which we declared earlier
 
     ofstream file;
     file.open("students.txt");
@@ -29,12 +30,12 @@ int main()
 
     cout<<"Enter details of all students: "<<i+1<<endl;
     
-    for(i=0;i<20;i++)
+    for(i=0;i<20;i++) //we  use for loop throughout the whole data and data will print according to array size.
     {
     cout<<"Enter Student id: "<<endl;
     cin>>arr[i].id;
-
-    
+  
+ 
     cout<<"Enter Student name: "<<endl;
     cin>>arr[i].name;
 
@@ -78,6 +79,7 @@ int main()
 }
      
     
+
 
 
 
