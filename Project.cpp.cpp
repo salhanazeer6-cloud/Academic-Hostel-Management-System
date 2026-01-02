@@ -8,8 +8,8 @@ using namespace std;
 
 struct Student     
 {
-    int id,phone number;
-    int id,phonenumber;
+    int id,phone number;//this is not correct 
+    int id,phonenumber;//this is correct to write variables
     string name,fathername,address;
 };
 
@@ -53,11 +53,12 @@ int main()
     cin>>arr[i].address;
 
     //now for writing data into the file
-    // file<<"-----------------------"<<endl;
+    // file<<"-----------------------"<<endl; //use this just for te partition of a single student
     
     //use "file" to print data into the file just like we use "cout"
     file<<"Student "<<i+1<<endl;
 
+    file<<"ID: "<<i.id<<endl;
     file<<"ID: "<<arr[i].id<<endl;
 
     file<<"Name: "<<arr[i].name<<endl;
@@ -80,6 +81,7 @@ int main()
 }
      
     
+
 
 
 
