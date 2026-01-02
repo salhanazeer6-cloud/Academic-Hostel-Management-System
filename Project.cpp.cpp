@@ -54,7 +54,7 @@ int main()
     //now for writing data into the file
     // file<<"-----------------------"<<endl;
     
-    
+    //use "file" to print data into the file just like we use "cout"
     file<<"Student "<<i+1<<endl;
 
     file<<"ID: "<<arr[i].id<<endl;
@@ -79,6 +79,7 @@ int main()
 }
      
     
+
 
 
 
