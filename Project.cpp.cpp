@@ -1,6 +1,6 @@
-
+Also uses file handling header files
 #include <iostream>
-#include <fstream>
+#include <fstream> //to read in file
 #include <string>
 using namespace std; 
 
@@ -22,8 +22,8 @@ int main()
     Student arr[i];
     //We use here Student which is user defined data type which we declared earlier
 
-    ofstream file;
-    file.open("students.txt");
+    ofstream file; //to write in the file
+    file.open("students.txt"); //for opening the txt file
 
     //Headings of the columns that will written in file
     cout<<"HOSTEL MANAGEMENT SYSTEM";
@@ -70,7 +70,7 @@ int main()
     file<<"--------------------------"<<endl;
     }
 
-    file.close();
+    file.close(); //file closing 
 
 
     return 0;
@@ -79,6 +79,7 @@ int main()
 }
      
     
+
 
 
 
