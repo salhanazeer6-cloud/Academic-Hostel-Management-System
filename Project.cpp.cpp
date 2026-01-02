@@ -6,7 +6,7 @@ using namespace std;
 
 //we use structure because we have different types of variable
 
-struct Student
+struct Student     //here i use structure because i have different types of data types and to store differenet variables in one variable
 {
     int id,phonenumber;
     string name,fathername,address;
@@ -78,6 +78,7 @@ int main()
 }
      
     
+
 
 
 
