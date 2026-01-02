@@ -17,7 +17,7 @@
 2. Data is automatically saved into "roomxs.txt".
 3. The program confirms the data saved with success message.
  ## Member 1:
-Name: Urooj Fatima
+ ## Urooj  Fatima 
 Roll no.: 25021519-152
    ## MY PROJECT PART OVERVIEW:
    My project part is about the data entering of students of hostels by using C++ and file handling.
