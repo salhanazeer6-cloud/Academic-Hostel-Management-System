@@ -10,6 +10,7 @@
 
     ## My Project Part Overview
    My project part manages hostel room records using C++ file handling.
+   ## Group Leader:
   ## Created by **Salha Nazeer**
    Roll no 25021519-041
 ## How it Works
@@ -25,7 +26,7 @@ Roll no.: 25021519-152
 1. First of all, the user will enter the data of students "DATA" including(ID.Name, Father's name, Address, Phone no.)
 2. Data will automatically be saved in a file(students.txt)
 3. At the end, the data will successfuly saved in the file with committed changes.
-   ## Member 3 :
+   ## Member 2 :
    ## Sobia Batool
    Roll Number: 25021519-221
    ## MY PROJECT PART OVERVIEW :
