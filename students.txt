@@ -21,21 +21,21 @@ Phone no.: 8765
 --------------------------
 Student 4
 ID: 564
-Name: talha
-Father's name: hussain
+Name: ghazala
+Father's name: inayat
 Address: lahore
 Phone no.: 6543
 --------------------------
 Student 5
 ID: 876
-Name: hamad
+Name: hamna
 Father's name: manzoor
 Address: lahore
 Phone no.: 6543
 --------------------------
 Student 6
 ID: 678
-Name: taha
+Name: areej
 Father's name: hussain
 Address: gujrat
 Phone no.: 9087
@@ -49,92 +49,93 @@ Phone no.: 76543
 --------------------------
 Student 8
 ID: 987
-Name: ali
+Name: alia
 Father's name: muhammad
 Address: pindi
 Phone no.: 83983948
 --------------------------
 Student 9
 ID: 654
-Name: hamza
+Name: fardous
 Father's name: iqbal
 Address: kunjah
 Phone no.: 56478383
 --------------------------
 Student 10
 ID: 0
-Name: 
-Father's name: 
+Name: zimal
+Father's name: ali
 Address: 
 Phone no.: 16450208
 --------------------------
 Student 11
 ID: 3
-Name: 
-Father's name: 
-Address: 
+Name: javeria
+Father's name: muhammad 
+Address: gujrat
 Phone no.: 127
 --------------------------
 Student 12
 ID: 16450160
-Name: 
-Father's name: 
-Address: 
+Name: tehreem
+Father's name: shabir
+Address:lahore
 Phone no.: 16907152
 --------------------------
 Student 13
 ID: 0
-Name: 
-Father's name: 
-Address: 
-Phone no.: 0
+Name: tazeem
+Father's name: tanveer
+Address: kunjah
+Phone no.: 08765
 --------------------------
 Student 14
 ID: 216
-Name: 
-Father's name: 
-Address: 
+Name: eman
+Father's name: zahoor
+Address: gujranwala
 Phone no.: 6421480
 --------------------------
 Student 15
 ID: 6421504
-Name: 
-Father's name: 
-Address: 
+Name: iqra
+Father's name: arif
+Address: kunjah
 Phone no.: 1982028908
 --------------------------
 Student 16
-ID: 1878005308
-Name: 
-Father's name: 
-Address: 
+ID: 187
+Name: fatima
+Father's name: ali
+Address:mungwal
 Phone no.: 1877969378
 --------------------------
 Student 17
 ID: 6421672
-Name: 
-Father's name: 
-Address: 
+Name: alia
+Father's name:manzoor 
+Address: lahore
 Phone no.: 1877809776
 --------------------------
 Student 18
 ID: 1878001568
-Name: 
-Father's name: 
-Address: 
+Name: maliha
+Father's name: kashif
+Address: lahore
 Phone no.: 1877569228
 --------------------------
 Student 19
 ID: 9579128
-Name: 
-Father's name: 
-Address: 
+Name: amna
+Father's name: zohaib
+Address: lahore
 Phone no.: 1878000396
 --------------------------
 Student 20
 ID: 6422008
-Name: 
-Father's name: 
-Address: 
+Name: alizmah
+Father's name: sufiyan
+Address: lahore
 Phone no.: 1877968020
 --------------------------
+
