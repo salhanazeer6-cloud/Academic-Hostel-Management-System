@@ -7,12 +7,11 @@
    Roll no:25021519-152
 2. Sobia batool
    Roll no 25021519-221
-
-    ## My Project Part Overview
+   
+## Created by Group leader **Salha Nazeer**
+Roll no  25021519-041
+   ## My Project Part overview
    My project part manages hostel room records using C++ file handling.
-   ## Group Leader:
-  ## Created by **Salha Nazeer**
-   Roll no 25021519-041
 ## How it Works
 1. The program asks for room details ( room number, room type, occupancy status, price)
 2. Data is automatically saved into "roomxs.txt".
