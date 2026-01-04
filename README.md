@@ -12,7 +12,7 @@
 Roll no  25021519-041
    ## My Project Part overview
    My project part manages hostel room records using C++ file handling.
-## How it Works
+## How it Works(Runs)
 1. The program asks for room details ( room number, room type, occupancy status, price)
 2. Data is automatically saved into "roomxs.txt".
 3. The program confirms the data saved with a success message.
@@ -30,7 +30,7 @@ Roll no.: 25021519-152
    Roll Number: 25021519-221
    ## MY PROJECT PART OVERVIEW :
    My project is about allotting room to students by using file handling in cpp
-   ## How MY PROJECT WORKS
+   ## How MY PROJECT WORKS(Runs)
    1: Student will enter their id
    2: Rooms occupency will be checked from the room file.
    3: Room will be allotted to the students according to occupancy status. 
